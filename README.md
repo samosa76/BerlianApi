@@ -1,4 +1,4 @@
-# Berlian IT Hardware API
+# Berlian Hardware Report API
 
 The Express.js REST API and MariaDB backend for the Berlian IT Hardware Reporting system. It handles parameter validation, duplicate report prevention, and native Excel (.xlsx) generation.
 
@@ -29,6 +29,6 @@ DB_NAME=db_hardware_report
 ## Running the Server
 Start the Express server (runs on port 8000 by default):
 ```bash
-node server.js
+npm run dev
 ```
-*(For development, run `nodemon server.js` to enable automatic restarts on file changes).*
+*(For development, run `npm run dev` to enable automatic restarts on file changes).*
